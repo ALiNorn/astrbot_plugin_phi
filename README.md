@@ -1,14 +1,22 @@
-# astrbot-plugin-helloworld
+# astrbot-plugin-phi
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+Phigros B30查询
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+## 请到phigros query获取'X-OpenApi-Token'并填写到配置
 
-# Supports
+[https://lilith.xtower.site/](https://lilith.xtower.site/)
 
-- [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
-- [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
-- [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+# 指令列表
+| 指令 | 作用 | 指令别名 |
+| :--- | :--- | :--- |
+| phi_bind | 绑定账号 | 无 |
+| phi_unbind | 解绑账号 | 无 |
+| phi_status | 绑定状态查询 | 无 |
+| phi_update | 更新存档数据 | pu / pupdate |
+| phi_b30 | 渲染成绩图 | pb30 / rks / pgr |
+
+# 支持平台
+|  |  |
+|:---|:---|
+|QQ官方机器人|已测试|
+|Napcat|理论可行|

@@ -1,0 +1,7 @@
+{
+  "openapi_token": {
+    "description": "Phi API 的 X-OpenApi-Token",
+    "type": "string",
+    "default": ""
+  }
+}
