@@ -200,6 +200,6 @@ class PhiPlugin(Star):
         try:
             await convert_svg_to_png(str(svg_path), str(png_path))
             yield event.plain_result("上次更新时间: " + last_time)
-            yield event.image_result(png_path)
+            yield event.image_result(str(png_path))
         except Exception as e:
             yield event.plain_result(f"转换存档为 PNG 时出错: {str(e)}")
