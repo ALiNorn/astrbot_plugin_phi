@@ -29,5 +29,4 @@ def save_svg(session_token, output_path, openapi_token):
 if __name__ == "__main__":
     # 示例调用
     session_token = "81aes0oxqg2zeespzpydfhago"
-    openapi_token = "pgr_live_RKMBVpKlPqCTS4CR2p0BS2sGk857pzst"
     save_svg(session_token, "save.svg", openapi_token)
